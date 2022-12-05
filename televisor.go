@@ -26,21 +26,21 @@ func bajarVolumen(volumen, maximoVolumen int) bool {
 	return sePuedeBajar
 }
 
-/*func retrocederCanal(canal int) bool {
+func retrocederCanal(canal int) bool {
 	if canal > 1 {
 		canal--
 	} else if canal == 1 {
 		canal = getMaximoCanal()
 	}
-}*/
+}
 
-/*func avanzarCanal(canal int) bool {
+func avanzarCanal(canal int) bool {
 	if canal < getMaximoCanal() {
 		canal++
 	} else if canal == getMaximoCanal() {
 		canal = 1
 	}
-}*/
+}
 
 func (t Televisor) getMaximoCanal() int {
 	maximoCanal := 0
